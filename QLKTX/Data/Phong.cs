@@ -17,11 +17,9 @@ namespace QLKTX.Data
 
         public string MaPhong { get; set; } = null!; //
 
-        public int ToaNhaID { get; set; }
-        public int LoaiPhongID { get; set; }
-
-        public string TenPhong { get; set; }
-        public int GiaPhong { get; set; }
+        public int MaToa { get; set; }
+        public int MaLoaiPhong { get; set; }
+    
         public int SucChua { get; set; }
         public int SoLuongHienTai { get; set; }
 
@@ -36,11 +34,8 @@ namespace QLKTX.Data
         public int ID { get; set; }
         [Required]
         public string MaPhong { get; set; } = null!; //
-        public int ToaNhaID { get; set; }
-        public int LoaiPhongID { get; set; }
-
-        public string TenPhong { get; set; }
-        public int GiaPhong { get; set; }
+        public int MaToa { get; set; }
+        public int MaLoaiPhong { get; set; }
         public int SucChua { get; set; }
         public int SoLuongHienTai { get; set; }
 

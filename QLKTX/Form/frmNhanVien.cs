@@ -53,29 +53,29 @@ namespace QLKTX.Forms
         }
 
         // ================= ENABLE =================
-        void BatTatChucNang(bool val)
+        void BatTatChucNang(bool giaTri)
         {
-            txtMaNV.Enabled = val;
-            txtHoTen.Enabled = val;
-            txtTenDangNhap.Enabled = val;
-            txtMatKhau.Enabled = val;
-            txtDienThoai.Enabled = val;
-            txtDiaChi.Enabled = val;
+            txtMaNV.Enabled = giaTri;
+            txtHoTen.Enabled = giaTri;
+            txtTenDangNhap.Enabled = giaTri;
+            txtMatKhau.Enabled = giaTri;
+            txtDienThoai.Enabled = giaTri;
+            txtDiaChi.Enabled = giaTri;
 
-            radNam.Enabled = val;
-            radNu.Enabled = val;
-            cboQuyenHan.Enabled = val;
+            radNam.Enabled = giaTri;
+            radNu.Enabled = giaTri;
+            cboQuyenHan.Enabled = giaTri;
 
-            btnLuu.Enabled = val;
-            btnHuyBo.Enabled = val;
+            btnLuu.Enabled = giaTri;
+            btnHuyBo.Enabled = giaTri;
 
-            btnThem.Enabled = !val;
-            btnSua.Enabled = !val;
-            btnXoa.Enabled = !val;
-            btnNhap.Enabled = !val;
-            btnXuat.Enabled = !val;
+            btnThem.Enabled = !giaTri;
+            btnSua.Enabled = !giaTri;
+            btnXoa.Enabled = !giaTri;
+            btnNhap.Enabled = !giaTri;
+            btnXuat.Enabled = !giaTri;
 
-            dataGridView1.Enabled = !val;
+            dataGridView1.Enabled = !giaTri;
         }
 
         // ================= GRID =================

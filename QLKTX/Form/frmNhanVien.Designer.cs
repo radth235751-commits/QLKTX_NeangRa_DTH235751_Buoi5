@@ -71,7 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox3.SuspendLayout();
-            SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBox2
             // 
@@ -81,7 +81,7 @@
             groupBox2.Size = new Size(1264, 313);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Danh sách sinh viên";
+            groupBox2.Text = "Danh sách nhân viên";
             // 
             // dataGridView1
             // 
@@ -177,7 +177,7 @@
             groupBox1.Controls.Add(btnXoa);
             groupBox1.Location = new Point(18, 41);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1264, 318);
+            groupBox1.Size = new Size(1264, 296);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin nhân viên";
@@ -444,22 +444,22 @@
             // 
             // frmNhanVien
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1300, 719);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(label1);
-            Name = "frmNhanVien";
-            Text = "frmNhanVien";
+            this.AutoScaleDimensions = new SizeF(9F, 21F);
+            this.AutoScaleMode = AutoScaleMode.Font;
+            this.ClientSize = new Size(1300, 719);
+            this.Controls.Add(groupBox2);
+            this.Controls.Add(groupBox1);
+            this.Controls.Add(label1);
+            this.Name = "frmNhanVien";
+            this.Text = "Nhân viên";
             groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion

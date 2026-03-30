@@ -172,7 +172,7 @@ namespace QLKTX.Forms
             // 
             // picHinhAnh
             // 
-            picHinhAnh.Location = new Point(476, 113);
+            picHinhAnh.Location = new Point(484, 94);
             picHinhAnh.Name = "picHinhAnh";
             picHinhAnh.Size = new Size(162, 171);
             picHinhAnh.TabIndex = 3;
@@ -182,7 +182,7 @@ namespace QLKTX.Forms
             // 
             groupBox3.Controls.Add(radNu);
             groupBox3.Controls.Add(radNam);
-            groupBox3.Location = new Point(465, 37);
+            groupBox3.Location = new Point(471, 25);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(326, 57);
             groupBox3.TabIndex = 2;

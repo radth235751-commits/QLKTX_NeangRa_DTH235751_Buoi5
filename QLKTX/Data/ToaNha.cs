@@ -10,7 +10,8 @@ namespace QLKTX.Data
     public class ToaNha
     {
         public int ID { get; set; }
-        public string TenToa { get; set; }
+        public string? MaToa { get; set; }
+        public string? TenToa { get; set; }
 
         public virtual ObservableCollectionListSource<Phong> Phong { get; } = new();
     }

@@ -24,7 +24,7 @@ namespace QLKTX.Data
     public class DanhSachHoaDonChiTiet
     {
         public int ID { get; set; }
-        public string TenPhong { get; set; }
+        public string? TenPhong { get; set; }
         public int SoThang { get; set; }
         public int DonGia { get; set; }
         public int ThanhTien { get; set; }
